@@ -1,0 +1,36 @@
+.container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    
+}
+#Pro-Penthouse-Estate{
+    background-color:lightslategrey;
+    
+  
+}
+
+/* Stilizimi i kartës dhe transformimi në hover */
+.card {
+  transition: transform 0.3s; /* Koha e animacionit */
+  
+}
+
+.card:hover {
+  transform: translate(-15px, -15px); /* Transformimi në hover (5px anash dhe 5px lart) */
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 34%;
+  }
+  .footer-left{
+    margin:0%;
+  }
+  
+ 
+
+  
