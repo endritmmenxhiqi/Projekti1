@@ -1,36 +1,63 @@
-.container{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    
-}
-#Pro-Penthouse-Estate{
-    background-color:lightslategrey;
-    
-  
+
+
+.navbar {
+  padding: 50px; /* Padding around the navbar */
+  display: flex;
+  justify-content: space-between; /* Distribute items along the main axis */
+  align-items:center; /* Center items vertically */
+  font-size: 30px;
+
 }
 
-/* Stilizimi i kartës dhe transformimi në hover */
-.card {
-  transition: transform 0.3s; /* Koha e animacionit */
-  
+.nav-left {
+  order: 1; /* Adjust the order of the left section */
 }
+
+.nav-right {
+  order: 2; /* Adjust the order of the right section */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 65%;
+  display: flex; /* Display items in a row */
+  font-size: 150%;
+ 
+}
+
+.nav-item {
+  margin-right: 20px; /* Spacing between items */
+}
+
+.nav-item:last-child {
+  margin-right: 0; /* Remove margin from the last item */
+}
+
+.nav-item a {
+  text-decoration: none;
+  color:white; /* Link color */
+}
+.EM-header{
+  background-color:gray;
+}
+
+
+
+
+
+
 
 .card:hover {
   transform: translate(-15px, -15px); /* Transformimi në hover (5px anash dhe 5px lart) */
 }
-
 .footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    margin-top: 34%;
-  }
-  .footer-left{
-    margin:0%;
-  }
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 2% -170%;
   
- 
-
-  
+}
+.footer-left{
+  margin:0%;
+}

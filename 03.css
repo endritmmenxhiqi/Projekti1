@@ -1,3 +1,14 @@
 .card:hover {
-    transform: translate(-15px, -15px); /* Transformimi në hover (5px anash dhe 5px lart) */
-  }
+  transform: translate(-15px, -15px); /* Transformimi në hover (5px anash dhe 5px lart) */
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin: 2% -170%;
+  
+}
+.footer-left{
+  margin:0%;
+} 
+  

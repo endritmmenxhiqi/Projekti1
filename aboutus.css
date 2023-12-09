@@ -26,27 +26,39 @@
  
 }
 
-
-
-
-
-
-
-
-
-.card:hover {
-  transform: translate(-15px, -15px); /* Transformimi në hover (5px anash dhe 5px lart) */
+.nav-item {
+  margin-right: 20px; /* Spacing between items */
 }
-.card-height {
-  height: 100%; /* Adjust this value to your desired card height */
+
+.nav-item:last-child {
+  margin-right: 0; /* Remove margin from the last item */
 }
+
+.nav-item a {
+  text-decoration: none;
+  color:white; /* Link color */
+}
+#Pro-Pent-Estate{
+  background-color: gray;
+}
+
+
+
+
+
+.EM-teksti{
+justify-content: left;
+margin-top:15%;
+margin-left:55%; 
+font-size:large;
+}
+
 
 .footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
-  margin: 2% -170%;
-  
+  margin-top: 34%;
 }
 .footer-left{
   margin:0%;
